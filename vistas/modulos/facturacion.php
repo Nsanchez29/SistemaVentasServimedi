@@ -4,7 +4,7 @@
     
     <h1>
       
-      Facturación
+      Ventas
     
     </h1>
 

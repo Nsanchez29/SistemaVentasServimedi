@@ -114,27 +114,8 @@ if($_SESSION["perfil"] == "Vendedor"){
 
     <div class="row">
 
-      <div class="col-md-6 col-xs-12">
-             
-      <?php
-
-        include "reportes/vendedores.php";
-
-      ?>
-
-      </div>
-
-      <div class="col-md-6 col-xs-12">
-             
-            <?php
-
-            include "reportes/compradores.php";
-
-            ?>
-
-           </div>
-
-           <div class="col-md-6 col-xs-12">
+      
+           <div class="col-md-6 col-xs-6">
              
             <?php
 
@@ -144,7 +125,7 @@ if($_SESSION["perfil"] == "Vendedor"){
 
            </div>
 
-           <div class="col-md-6 col-xs-12">
+           <div class="col-md-6 col-xs-6">
              
             <?php
 
@@ -154,15 +135,7 @@ if($_SESSION["perfil"] == "Vendedor"){
 
            </div>
 
-           <div class="col-md-12 col-xs-12">
-             
-            <?php
-
-            include "reportes/stock.php";
-
-            ?>
-
-           </div>            
+           
           
         </div>
 

@@ -8,13 +8,14 @@
 
         <div class="col-lg-12">
 
-          <h1 class=" text-dodgerblue" style="font-size: 120pt">404</h1>
+          <img src="vistas/img/plantilla/logo.png" width="50px"><small> SISTEMA DE VENTAS | SANATORIO SERVIMEDI</small>
+          <h1 class=" text-red" style="font-size: 120pt">404</h1>
 
           <h4>
 
-            <i class="fa fa-warning text-dodgerblue"></i>
+            <i class="fa fa-warning text-red"></i>
 
-            Ooops! Página no encontrada.
+            Ooooooooops! Acualmente no se encuentra lo que buscas
 
           </h4>
 
@@ -26,7 +27,7 @@
 
         <b>
 
-          Regresa a la página de <a href="inicio"><label class="btn btn-dodgerblue btn-xs">Inicio</label></a>
+          VOLVER A<a href="inicio"><label class="btn btn-dodgerblue btn-xs">MENU PRINCIPAL</label></a>
 
         </b>
 

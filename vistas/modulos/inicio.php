@@ -6,7 +6,7 @@
     
     echo '<h1>
       
-      Bienvenido, '.$_SESSION["nombre"].' <small>Panel de control</small> 
+      <small>'.$_SESSION["nombre"].'</small> BIENVENDIDO AL SISTEMA DE VENTAS | SANATORIO SERVIMEDI 
    
     </h1>';
     
@@ -38,55 +38,6 @@
           
     </div>
 
-    <div class="row">
-
-      <div class="col-lg-12">
-
-        <?php
-
-        if ($_SESSION["perfil"] == "Administrador") {
-
-          include "reportes/grafico-ventas.php";
-
-        }
-
-        ?>
-          
-      </div>
-
-    </div>
-
-    <div class="row">
-
-      <div class="col-lg-6">
-
-        <?php
-
-        if ($_SESSION["perfil"] == "Administrador" || $_SESSION["perfil"] == "Editor") {
-
-          include "reportes/stock.php";
-
-        }
-
-        ?>
-          
-      </div>
-
-      <div class="col-lg-6">
-
-        <?php
-
-        if ($_SESSION["perfil"] == "Administrador" || $_SESSION["perfil"] == "Editor") {
-
-          include "reportes/productos-recientes2.php";
-
-        }
-
-        ?>
-          
-      </div>
-
-    </div>
 
   </section>
 

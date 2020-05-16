@@ -66,7 +66,7 @@ $bloque1 = <<<EOF
 			
 			<br>
 			<br>
-			<img src="../../vistas/img/plantilla//logogd_negro.png">
+			<img src="../../vistas/img/plantilla//logo2.png">
 
 			</td>
 
@@ -75,10 +75,10 @@ $bloque1 = <<<EOF
 				<div style="font-size: 10px; text-align: right; line-height: 15px">
 
 					<br>
-					NIT: 1291992-9
+				
 
 					<br>
-					Guastatoya, El Progreso
+					
 
 				</div>			
 
@@ -92,7 +92,7 @@ $bloque1 = <<<EOF
 					Teléfono: 7945-1234
 
 					<br>
-					distguastatoya@gmail.com
+					Guastatoya, El Progreso
 
 				</div>			
 
@@ -102,7 +102,7 @@ $bloque1 = <<<EOF
 
 					<br>
 					<br>
-					<b>NO. FACTURA</b>
+					<b>NO. COMPROBANTE</b>
 					<br>
 					<b>$valorVenta</b>	
 

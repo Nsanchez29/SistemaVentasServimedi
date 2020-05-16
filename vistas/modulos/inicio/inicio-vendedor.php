@@ -30,7 +30,7 @@ $totalProductos = count($productos);
 
     <div class="icon">
 
-      <i class="ion ion-ios-keypad"></i>
+    <i class="fab fa-stack-overflow"></i>
 
     </div>
 
@@ -54,7 +54,7 @@ $totalProductos = count($productos);
 
     <div class="icon">
 
-      <i class="ion ion-ios-people"></i>
+      <i class="fas fa-user"></i>
 
     </div>
 
@@ -78,7 +78,7 @@ $totalProductos = count($productos);
 
     <div class="icon">
 
-      <i class="ion ion-ios-pricetags"></i>
+    <i class="fas fa-barcode"></i>
 
     </div>
 
@@ -102,7 +102,7 @@ $totalProductos = count($productos);
 
     <div class="icon">
 
-      <i class="ion ion-ios-cart"></i>
+    <i class="fas fa-cart-plus"></i>
 
     </div>
 

@@ -1,6 +1,7 @@
 <div id="fondo"></div>
 <head>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="vistas/dist/css/stylelog.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
 </head>
@@ -8,7 +9,7 @@
   <form method="post" class="login-form">
     <div class="login-logo">
 
-    <img src="vistas/img/plantilla/logogd_negro.png" class="img-responsive" style="padding:30px 0px 30px 0px">
+    <img src="vistas/img/plantilla/logo2.png" class="img-responsive" style="padding:30px 0px 30px 0px">
 
   </div>
    

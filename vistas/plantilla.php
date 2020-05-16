@@ -10,21 +10,21 @@ session_start();
 
 <head>
 
-  <title>Distribuidora Guastatoya</title>
+  <title>SANATORIO SERVIMEDI | SISTEMA DE VENTAS</title>
 
-  <link rel="icon" href="vistas/img/plantilla/logopeqblanco.png">
+  <link rel="icon" href="vistas/img/plantilla/logo.png">
 
-  <meta name="theme-color" content="dodgerblue">
+  <meta name="theme-color" content="orangered">
   
-  <meta name="theme-color" content="#1e90ff">
+  <meta name="theme-color" content="#ff4500">
 
-  <meta property="Pablo Girón"/>
+  <meta property="The Monsters-Inc"/>
 
-  <meta name="author" content="Pablo Girón"/>
+  <meta name="author" content="The Monsters-Inc"/>
 
-  <meta name="copyright" content="Pablo Girón"/>
+  <meta name="copyright" content="The Monsters-Incs"/>
 
-  <meta name="description" content= "Sistema POS para Distribuidora Guastatoya" />
+  <meta name="description" content= "Sanatorio Servimedi | Sistema de Ventas" />
   
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   
@@ -51,7 +51,7 @@ session_start();
   <link rel="stylesheet" href="vistas/bower_components/bootstrap-daterangepicker/daterangepicker.css">
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="vistas/bower_components/font-awesome/css/font-awesome.css">
+  <script src="https://kit.fontawesome.com/7e73ebaf62.js" crossorigin="anonymous"></script>
 
   <!-- Ionicons -->
   <link rel="stylesheet" href="vistas/bower_components/Ionicons/css/ionicons.min.css">
@@ -228,9 +228,7 @@ session_start();
   <script src="vistas/js/cui.js"></script>
   <script src="vistas/js/temperatura.js"></script>
   
-  <span class="ir-inicio icon-home"></span>
-  <span class="ir-arriba icon-chevron-thin-up"></span>
-  <span class="ir-faq icon-help"></span>
+  
 
 </body>
 

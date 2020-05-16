@@ -56,7 +56,7 @@
 
             <label for="year"></label>
 
-            <select class="selectpicker form-control" data-style="btn-dodgerblue" data-size="8" multiple data-max-options="1" name="year" id="year" onchange="jump()">
+            <select class="selectpicker form-control" data-style="btn-orangered" data-size="8" multiple data-max-options="1" name="year" id="year" onchange="jump()">
                 <option value=1990>1990</option>
                 <option value=1991>1991</option>
                 <option value=1992>1992</option>

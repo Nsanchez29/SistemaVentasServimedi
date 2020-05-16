@@ -55,7 +55,7 @@ GRÁFICO DE VENTAS
 		
  		<i class="ion ion-stats-bars"></i>
 
-  		<h3 class="box-title">Gráfico de Ventas</h3>
+  		<h3 class="box-title">GRAFICA CORRESPONDIENTE A VENTAS</h3>
 
 	</div>
 

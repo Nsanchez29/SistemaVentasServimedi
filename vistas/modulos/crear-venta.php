@@ -4,7 +4,7 @@
     
     <h1>
       
-      Crear venta
+      Nueva venta
     
     </h1>
 

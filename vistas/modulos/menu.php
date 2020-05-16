@@ -8,7 +8,7 @@
 
 				<a href="inicio">
 
-					<i class="ion ion-ios-home"></i>
+					<i class="fas fa-home"></i>
 					<span>Inicio</span>
 
 				</a>
@@ -25,19 +25,8 @@
 
 				<a href="usuarios">
 
-					<i class="ion ion-ios-person"></i>
+				<i class="fas fa-users-cog"></i>
 					<span>Usuarios</span>
-
-				</a>
-
-			</li>
-
-			<li>
-
-				<a href="contactos">
-
-					<i class="ion ion-ios-telephone"></i>
-					<span>Agenda teléfonica</span>
 
 				</a>
 
@@ -51,23 +40,13 @@
 
 				<a href="clientes">
 
-					<i class="ion ion-ios-people"></i>
+				<i class="fas fa-user"></i>
 					<span>Clientes</span>
 
 				</a>
 
 			</li>
 
-			<li>
-
-				<a href="categorias">
-
-					<i class="ion ion-ios-keypad"></i>
-					<span>Categorías</span>
-
-				</a>
-
-			</li>
 
 			<?php
 
@@ -79,7 +58,7 @@
 
 				<a href="proveedores">
 
-					<i class="ion ion-ios-briefcase"></i>
+				<i class="fas fa-user"></i>
 					<span>Proveedores</span>
 
 				</a>
@@ -92,10 +71,10 @@
 
 			<li>
 
-				<a href="productos">
+				<a href="categorias">
 
-					<i class="ion ion-ios-pricetags"></i>
-					<span>Productos</span>
+					<i class="fab fa-stack-overflow"></i>
+					<span>Categorías</span>
 
 				</a>
 
@@ -103,14 +82,16 @@
 
 			<li>
 
-				<a href="ordenes">
-							
-					<i class="ion ion-clipboard"></i>
-					<span>Órdenes de trabajo</span>
+				<a href="productos">
+
+					<i class="fas fa-barcode"></i>
+					<span>Productos</span>
 
 				</a>
 
 			</li>
+
+			
 
 			
 
@@ -119,23 +100,14 @@
 				<a href="facturacion">
 							
 					
-					<b>Q</b>&nbsp
-					&nbsp<span>Facturación</span>
+					<i class="fas fa-truck"></i>
+					<span>Ventas</span>
 
 				</a>
 
 			</li>
 
-			<li>
-
-				<a href="crear-venta">
-							
-					<i class="ion ion-ios-cart"></i>
-					<span>Crear venta</span>
-
-				</a>
-
-			</li>
+			
 
 			<?php
 
@@ -147,7 +119,7 @@
 
 				<a href="reportes">
 							
-					<i class="ion ion-stats-bars"></i>
+					<i class="far fa-folder-open"></i>
 					<span>Reporte de ventas</span>
 
 				</a>
@@ -158,16 +130,6 @@
 
 			?>
 
-			<li>
-
-				<a href="faq">
-							
-					<i class="ion ion-help"></i>
-					<span>Preguntas frecuentes</span>
-
-				</a>
-
-			</li>
 
 		</ul>
 

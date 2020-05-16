@@ -150,7 +150,7 @@ MODAL AGREGAR USUARIO
 
         <div class="modal-header" style="background: dodgerblue; color:white">
 
-          <h4 class="modal-title">Agregar usuario</h4>
+          <h4 class="modal-title">Agregar usuario</h4><img class="modal-title" src="vistas/img/plantilla/logo2.png" width="150px">
 
         </div>
 

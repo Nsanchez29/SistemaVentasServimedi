@@ -7,13 +7,13 @@
 
 		<span class="logo-mini">
 			
-			<img src="vistas/img/plantilla/logopeqblanco.png" class="img-responsive" style="padding:10px">
+			<img src="vistas/img/plantilla/logo2.png" class="img-responsive" style="padding:10px">
 
 		</span>
 
 		<span class="logo-lg">
 			
-			<img src="vistas/img/plantilla/logogd_blanco.png" class="img-responsive" style="padding:7px 0px">
+			<img src="vistas/img/plantilla/logo2.png" class="img-responsive" style="padding:7px 0px">
 
 		</span>
 
@@ -39,11 +39,11 @@
 							<span class="temperature-degree"></span>
 							<span>°C </span>
 
-							<b style="color: dodgerblue">|</b>
+							<b style="color: orangered">|</b>
 
-							<input type="text" name="reloj" size="7" style="background-color : transparent; color : white; border: 0px; font-size : 10pt; text-align : center;" onfocus="window.document.form_reloj.reloj.blur()">
+							<input type="text" name="reloj" class="reloj" size="7" style="background-color : transparent; color : white; border: 0px; font-size : 10pt; text-align : center;" onfocus="window.document.form_reloj.reloj.blur()">
 
-							<b style="color: dodgerblue">|</b>
+							<b style="color: orangered">|</b>
 
 							<script src="vistas/js/fecha.js"></script>
 
@@ -77,7 +77,7 @@
 
 				</li>
 
-				<li class="btn-dodgerblue">
+				<li class="btn-danger">
 					
 					<a href="salir">
 

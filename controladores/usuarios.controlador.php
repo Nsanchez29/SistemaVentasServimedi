@@ -13,7 +13,7 @@ class ControladorUsuarios{
 			if(preg_match('/^[a-zA-Z0-9]+$/', $_POST["ingUsuario"]) &&
 			   preg_match('/^[a-zA-Z0-9]+$/', $_POST["ingPassword"])){
 
-			   	$crypto = crypt($_POST["ingPassword"], '$6$rounds=5000$pablogiron');
+			   	$crypto = crypt($_POST["ingPassword"], '$6$rounds=5000$tcsogt');
 			   
 				$tabla = "tbl_usuario";
 
@@ -163,7 +163,7 @@ class ControladorUsuarios{
 
 				$tabla = "tbl_usuario";
 				
-				$crypto = crypt($_POST["nuevoPassword"], '$6$rounds=5000$pablogiron');
+				$crypto = crypt($_POST["nuevoPassword"], '$6$rounds=5000$tcsogt');
 
 				$datos = array("nombre" => $_POST["nuevoNombre"],
 					           "usuario" => $_POST["nuevoUsuario"],
@@ -338,7 +338,7 @@ class ControladorUsuarios{
 
 					if(preg_match('/^[a-zA-Z0-9]+$/', $_POST["editarPassword"])){
 
-						$crypto = crypt($_POST["editarPassword"], '$6$rounds=5000$pablogiron');
+						$crypto = crypt($_POST["editarPassword"], '$6$rounds=5000$tcsogt');
 
 					}else{
 

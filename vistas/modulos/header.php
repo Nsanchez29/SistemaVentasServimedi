@@ -36,15 +36,16 @@
 
 						<form name="form_reloj">
 
+							<span><i class="fas fa-thermometer-half"></i></span>
 							<span class="temperature-degree"></span>
 							<span>°C </span>
 
 							<b style="color: orangered">|</b>
-
+							<span><i class="far fa-clock"></i></span>
 							<input type="text" name="reloj" class="reloj" size="7" style="background-color : transparent; color : white; border: 0px; font-size : 10pt; text-align : center;" onfocus="window.document.form_reloj.reloj.blur()">
 
 							<b style="color: orangered">|</b>
-
+							<span><i class="far fa-calendar-alt"></i></span>
 							<script src="vistas/js/fecha.js"></script>
 
 						</form>

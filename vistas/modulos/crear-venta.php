@@ -287,7 +287,7 @@
                  <tr>
                   
                   <th style="width: 5px">Imagen</th>
-                  <th style="width: 5px">SKU</th>
+                  <th style="width: 5px">Cod</th>
                   <th style="width: 10px">Descripción</th>
                   <th style="width: 10px">Precio</th>
                   <th style="width: 10px">Stock</th>

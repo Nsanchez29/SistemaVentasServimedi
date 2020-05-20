@@ -42,7 +42,7 @@
            
            <th style="width:10px; text-align: center">No.</th>
            <th style="width:10px; text-align: center">Imagen</th>
-           <th style="width:10px; text-align: center">SKU</th>
+           <th style="width:10px; text-align: center">Cod.</th>
            <th style="text-align: center">Descripción</th>
            <th style="text-align: center">Categoría</th>
            <th style="text-align: center">Proveedor</th>

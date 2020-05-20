@@ -168,14 +168,11 @@ session_start();
          $_GET["ruta"] == "productos" ||
          $_GET["ruta"] == "clientes" ||
          $_GET["ruta"] == "facturacion" ||
-         $_GET["ruta"] == "ordenes" ||
          $_GET["ruta"] == "crear-venta" ||
          $_GET["ruta"] == "editar-venta" ||
          $_GET["ruta"] == "reportes" ||
          $_GET["ruta"] == "contactos" ||
          $_GET["ruta"] == "proveedores" ||
-         $_GET["ruta"] == "faq" ||
-         $_GET["ruta"] == "pruebas" ||
          $_GET["ruta"] == "salir"){
 
         include "modulos/".$_GET["ruta"].".php";

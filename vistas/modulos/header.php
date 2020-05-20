@@ -82,7 +82,7 @@
 					
 					<a href="salir">
 
-						<span><i class="ion ion-log-out"></i></span>
+						<span><i class="fas fa-power-off"></i></span>
 
 					</a>
 					

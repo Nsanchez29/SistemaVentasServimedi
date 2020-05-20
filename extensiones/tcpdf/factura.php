@@ -62,37 +62,28 @@ $bloque1 = <<<EOF
 
 		<tr>
 
-			<td style="width:150px">
+			<td style="width:210px">
 			
 			<br>
 			<br>
-			<img src="../../vistas/img/plantilla//logo2.png">
+			<img src="../../vistas/img/plantilla//op3.png" width="210px" >
 
 			</td>
 
-			<td style="width:140px">
+			
+
+			<td style="width:220px">
 
 				<div style="font-size: 10px; text-align: right; line-height: 15px">
-
-					<br>
-				
-
-					<br>
 					
-
-				</div>			
-
-			</td>
-
-			<td style="width:140px">
-
-				<div style="font-size: 10px; text-align: right; line-height: 15px">
+					<br>
+					SANATORIO SERVIMEDI
 
 					<br>
-					Teléfono: 7945-1234
+					Tel.: 7945-1814 | 7945-2693
 
 					<br>
-					Guastatoya, El Progreso
+					Barrio El Porvenir, Guastatoya, El Progreso
 
 				</div>			
 
@@ -102,7 +93,7 @@ $bloque1 = <<<EOF
 
 					<br>
 					<br>
-					<b>NO. COMPROBANTE</b>
+					<small><b>NUMERO DE COMPROBANTE</b></small>
 					<br>
 					<b>$valorVenta</b>	
 
@@ -215,7 +206,7 @@ $orden = null;
 
 $respuestaProducto = ControladorProductos::ctrMostrarProductos($itemProducto, $valorProducto, $orden);
 
-$valorUnitario = number_format($respuestaProducto["precio_venta"], 2);
+$valorUnitario = number_format($respuestaProducto["precio_venta"],2);
 
 $precioTotal = number_format($item["total"], 2);
 

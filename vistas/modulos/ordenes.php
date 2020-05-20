@@ -4,7 +4,7 @@
     
     <h1>
       
-      Ventas
+      Órdenes de trabajo
     
     </h1>
 
@@ -12,7 +12,7 @@
 
   <section class="content">
 
-    <div class="box box-dodgerblue">  
+    <div class="box box-dodgerblue">
 
       <div class="box-header with-border">
   
@@ -20,27 +20,13 @@
 
           <button class="btn btn-dodgerblue">
             
-          <i class="fas fa-plus"></i> Crear venta
+            Crear venta
 
           </button>
 
         </a>
 
-        <button type="button" class="btn btn-dodgerblue pull-right" id="daterange-btn">
-           
-            <span>
 
-              Rango de fecha
-            
-            </span>
-
-            <span>
-
-              <i class="fa fa-caret-down"></i>
-
-            </span>
-
-         </button>
 
       </div>
 
@@ -52,14 +38,10 @@
          
          <tr>
            
-           <th style="width:10px">No.</th>
-           <th style="text-align: center">Código factura</th>
+           <th style="width:10px; text-align: center">No.</th>
+           <th style="text-align: center">Código de orden</th>
            <th style="text-align: center">Cliente</th>
            <th style="text-align: center">Vendedor</th>
-           <th style="text-align: center">Forma de pago</th>
-           <th style="text-align: center">Subtotal</th>
-           <th style="text-align: center">Descuento</th>
-           <th style="text-align: center">Total</th> 
            <th style="text-align: center">Fecha</th>
            <th style="width:10px; text-align: center">Acciones</th>
 
@@ -108,21 +90,14 @@
 
                   echo '<td>'.$respuestaUsuario["nombre"].'</td>
 
-                  <td>'.$value["metodo_pago"].'</td>
-
-                  <td>Q '.number_format($value["subtotal"],2).'</td>
-
-                  <td>Q '.number_format(abs($value["descuento"]),2).'</td>
-
-                  <td>Q '.number_format($value["total"],2).'</td>
-
+                  
                   <td>'.$value["fecha"].'</td>
 
                   <td>
 
                     <div class="btn-group">
                         
-                      <button class="btn btn-info btnImprimirFactura" codigoVenta="'.$value["codigo"].'">
+                      <button class="btn btn-info btnImprimirOrden" codigoVenta="'.$value["codigo"].'">
 
                       <i class="fa fa-print"></i>
                       
@@ -156,3 +131,7 @@
   </section>
 
 </div>
+
+
+
+

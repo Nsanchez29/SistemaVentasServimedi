@@ -18,7 +18,7 @@
 
         <button class="btn btn-dodgerblue" data-toggle="modal" data-target="#modalAgregarCliente">
 
-          Agregar cliente
+        <i class="fas fa-plus"></i> Agregar cliente
 
         </button>
 
@@ -129,9 +129,9 @@ MODAL AGREGAR CLIENTE
         ======================================-->
 
         <div class="modal-header" style="background: dodgerblue; color:white">
-
-          <h4 class="modal-title">Agregar cliente</h4>
-
+          <center>
+          <img class="modal-title" src="vistas/img/plantilla/agregarcliente.png" width="320px">
+          </center>
         </div>
 
         <!--=====================================
@@ -224,9 +224,9 @@ MODAL AGREGAR CLIENTE
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
+          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal"><i class="fas fa-window-close"></i> Salir</button>
 
-          <button type="submit" class="btn btn-dodgerblue">Guardar cliente</button>
+          <button type="submit" class="btn btn-dodgerblue"><i class="far fa-save"></i> Guardar cliente</button>
 
         </div>
 
@@ -262,9 +262,9 @@ MODAL EDITAR CLIENTE
         ======================================-->
 
         <div class="modal-header" style="background: dodgerblue; color:white">
-
-          <h4 class="modal-title">Editar cliente</h4>
-
+          <center>
+          <img class="modal-title" src="vistas/img/plantilla/editarcliente.png" width="320px">
+          </center>
         </div>
 
         <!--=====================================
@@ -355,9 +355,9 @@ MODAL EDITAR CLIENTE
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
+        <button type="button" class="btn btn-danger pull-left" data-dismiss="modal"><i class="fas fa-window-close"></i> Salir</button>
 
-          <button type="submit" class="btn btn-dodgerblue">Guardar cambios</button>
+        <button type="submit" class="btn btn-dodgerblue"><i class="far fa-save"></i> Guardar cliente</button>
 
         </div>
 

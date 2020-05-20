@@ -34,7 +34,7 @@ if($_SESSION["perfil"] == "Vendedor" || $_SESSION["perfil"] == "Editor"){
   
         <button class="btn btn-dodgerblue" data-toggle="modal" data-target="#modalAgregarUsuario">
           
-          Agregar usuario
+        <i class="fas fa-plus"></i> Agregar usuario
 
         </button>
 
@@ -50,7 +50,7 @@ if($_SESSION["perfil"] == "Vendedor" || $_SESSION["perfil"] == "Editor"){
            
            <th style="width:10px; text-align: center">No.</th>
            <th style="text-align: center">Nombre</th>
-           <th style="text-align: center">CUI</th>
+           
            <th style="text-align: center">Usuario</th>
            <th style="width:10px; text-align: center">Foto</th>
            <th style="text-align: center">Perfil</th>
@@ -76,7 +76,7 @@ if($_SESSION["perfil"] == "Vendedor" || $_SESSION["perfil"] == "Editor"){
           echo ' <tr>
                   <td>'.($key+1).'</td>
                   <td>'.$value["nombre"].'</td>
-                  <td>'.$value["cui"].'</td>
+                  
                   <td>'.$value["usuario"].'</td>';
 
                   if($value["foto"] != ""){
@@ -149,9 +149,9 @@ MODAL AGREGAR USUARIO
         ======================================-->
 
         <div class="modal-header" style="background: dodgerblue; color:white">
-
-          <h4 class="modal-title">Agregar usuario</h4><img class="modal-title" src="vistas/img/plantilla/logo2.png" width="150px">
-
+          <center>
+          <img class="modal-title" src="vistas/img/plantilla/agregarusuario.png" width="320px">
+          </center>
         </div>
 
         <!--=====================================
@@ -176,21 +176,6 @@ MODAL AGREGAR USUARIO
 
             </div>
 
-            <!-- ENTRADA PARA EL CUI -->
-
-            <div class="form-group">
-
-              <div class="input-group has-feedback">
-
-                <span class="input-group-addon"><i class="fa fa-credit-card" style="width: 10px"></i></span>
-
-                <input type="text" class="form-control input-lg" id="cui" name="nuevoCui" placeholder="Ingresar CUI" maxlength="13" pattern="[0-9]{4}\s?[0-9]{5}\s?[0-9]{4}$" title="Formato no válido.">
-
-                <span class="glyphicon form-control-feedback"></span>
-
-              </div>
-
-            </div>
 
             <!-- ENTRADA PARA EL USUARIO -->
 
@@ -268,9 +253,9 @@ MODAL AGREGAR USUARIO
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
+          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal"><i class="fas fa-window-close"></i> Salir</button>
 
-          <button type="submit" class="btn btn-dodgerblue">Guardar usuario</button>
+          <button type="submit" class="btn btn-dodgerblue"><i class="far fa-save"></i> Guardar usuario</button>
 
         </div>
 
@@ -306,9 +291,9 @@ MODAL EDITAR USUARIO
         ======================================-->
 
         <div class="modal-header" style="background: dodgerblue; color:white">
-
-          <h4 class="modal-title">Editar usuario</h4>
-
+          <center>
+          <img class="modal-title" src="vistas/img/plantilla/editarusuario.png" width="320px">
+          </center>
         </div>
 
         <!--=====================================
@@ -333,20 +318,7 @@ MODAL EDITAR USUARIO
 
             </div>
 
-            <!-- ENTRADA PARA EL CUI -->
-
-            <div class="form-group">
-
-              <div class="input-group has-feedback">
-
-                <span class="input-group-addon"><i class="fa fa-credit-card" style="width: 10px"></i></span>
-
-                <input type="text" class="form-control input-lg" id="editarCui" name="editarCui" placeholder="Ingresar CUI" maxlength="13" pattern="[0-9]{4}\s?[0-9]{5}\s?[0-9]{4}$" title="Formato no válido.">
-
-              </div>
-
-            </div>
-
+          
             <!-- ENTRADA PARA EL USUARIO -->
 
              <div class="form-group">
@@ -427,9 +399,9 @@ MODAL EDITAR USUARIO
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
+          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal"><i class="fas fa-window-close"></i> Salir</button>
 
-          <button type="submit" class="btn btn-dodgerblue">Modificar usuario</button>
+          <button type="submit" class="btn btn-dodgerblue"><i class="far fa-save"></i> Modificar usuario</button>
 
         </div>
 

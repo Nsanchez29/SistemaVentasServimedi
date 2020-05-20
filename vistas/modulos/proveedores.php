@@ -34,7 +34,7 @@ if($_SESSION["perfil"] == "Vendedor"){
   
         <button class="btn btn-dodgerblue" data-toggle="modal" data-target="#modalAgregarProveedor">
           
-          Agregar proveedor
+        <i class="fas fa-plus"></i> Agregar proveedor
 
         </button>     
 
@@ -147,9 +147,9 @@ MODAL AGREGAR PROVEEDOR
         ======================================-->
 
         <div class="modal-header" style="background: dodgerblue; color:white">
-
-          <h4 class="modal-title">Agregar proveedor</h4>
-
+          <center>
+          <img class="modal-title" src="vistas/img/plantilla/agregarproveedor.png" width="320px">
+          </center>
         </div>
 
         <!--=====================================
@@ -300,9 +300,9 @@ MODAL AGREGAR PROVEEDOR
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
+          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal"><i class="fas fa-window-close"></i> Salir</button>
 
-          <button type="submit" class="btn btn-dodgerblue">Guardar proveedor</button>
+          <button type="submit" class="btn btn-dodgerblue"><i class="far fa-save"></i> Guardar proveedor</button>
 
         </div>
 
@@ -338,9 +338,9 @@ MODAL EDITAR PROVEEDOR
         ======================================-->
 
         <div class="modal-header" style="background: dodgerblue; color:white">
-
-          <h4 class="modal-title">Editar proveedor</h4>
-
+          <center>
+          <img class="modal-title" src="vistas/img/plantilla/editarproveedor.png" width="320px">
+          </center>
         </div>
 
         <!--=====================================
@@ -492,9 +492,9 @@ MODAL EDITAR PROVEEDOR
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
+          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal"><i class="fas fa-window-close"></i> Salir</button>
 
-          <button type="submit" class="btn btn-dodgerblue">Guardar cambios</button>
+          <button type="submit" class="btn btn-dodgerblue"><i class="far fa-save"></i> Guardar cambios</button>
 
         </div>
 

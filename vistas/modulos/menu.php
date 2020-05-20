@@ -73,7 +73,7 @@
 
 				<a href="categorias">
 
-					<i class="fab fa-stack-overflow"></i>
+					<i class="fas fa-barcode"></i>
 					<span>Categorías</span>
 
 				</a>
@@ -84,7 +84,7 @@
 
 				<a href="productos">
 
-					<i class="fas fa-barcode"></i>
+					<i class="fas fa-box-open"></i>
 					<span>Productos</span>
 
 				</a>
@@ -100,7 +100,7 @@
 				<a href="facturacion">
 							
 					
-					<i class="fas fa-truck"></i>
+				<i class="fas fa-shopping-cart"></i>
 					<span>Ventas</span>
 
 				</a>

@@ -16,7 +16,7 @@
 
       <?php
 
-      if ($_SESSION["perfil"] == "Administrador") {
+      if ($_SESSION["perfil"] == "Administrador" || "Editor"  ) {
 
         echo '
 
@@ -24,7 +24,7 @@
 
           <button class="btn btn-dodgerblue" data-toggle="modal" data-target="#modalAgregarCategoria">
           
-            Agregar categoría
+          <i class="fas fa-plus"></i>Agregar categoría
 
           </button>
 
@@ -124,10 +124,10 @@ MODAL AGREGAR CATEGORÍA
         CABEZA DEL MODAL
         ======================================-->
 
-        <div class="modal-header" style="background:#1E90FF; color:white">
-
-          <h4 class="modal-title">Agregar categoría</h4>
-
+        <div class="modal-header" style="background: dodgerblue; color:white">
+          <center>
+          <img class="modal-title" src="vistas/img/plantilla/agregarcategoria.png" width="320px">
+          </center>
         </div>
 
         <!--=====================================
@@ -162,9 +162,9 @@ MODAL AGREGAR CATEGORÍA
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
+          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal"><i class="fas fa-window-close"></i> Salir</button>
 
-          <button type="submit" class="btn btn-dodgerblue">Guardar categoría</button>
+          <button type="submit" class="btn btn-dodgerblue"><i class="far fa-save"></i> Guardar categoría</button>
 
         </div>
 
@@ -200,9 +200,9 @@ MODAL EDITAR CATEGORÍA
         ======================================-->
 
         <div class="modal-header" style="background: dodgerblue; color:white">
-
-          <h4 class="modal-title">Editar categoría</h4>
-
+          <center>
+          <img class="modal-title" src="vistas/img/plantilla/editarcategoria.png" width="320px">
+          </center>
         </div>
 
         <!--=====================================
@@ -239,9 +239,9 @@ MODAL EDITAR CATEGORÍA
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
+          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal"><i class="fas fa-window-close"></i> Salir</button>
 
-          <button type="submit" class="btn btn-dodgerblue">Guardar cambios</button>
+          <button type="submit" class="btn btn-dodgerblue"><i class="far fa-save"></i> Guardar cambios</button>
 
         </div>
 

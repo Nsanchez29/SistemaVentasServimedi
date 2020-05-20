@@ -22,58 +22,66 @@ class ControladorUsuarios{
 
 				$respuesta = ModeloUsuarios::MdlMostrarUsuarios($tabla, $item, $valor);
 
-				if($respuesta["usuario"] == $_POST["ingUsuario"] && $respuesta["password"] == $crypto){
+				if($respuesta["usuario"] == $_POST["ingUsuario"]){
 
-					if($respuesta["estado"] == 1){
-
-						$_SESSION["iniciarSesion"] = "ok";
-						$_SESSION["id"] = $respuesta["id"];
-						$_SESSION["nombre"] = $respuesta["nombre"];
-						$_SESSION["usuario"] = $respuesta["usuario"];
-						$_SESSION["foto"] = $respuesta["foto"];
-						$_SESSION["perfil"] = $respuesta["perfil"];
-
-						/*=============================================
-						REGISTRAR FECHA PARA SABER EL ÚLTIMO LOGIN
-						=============================================*/
-
-						date_default_timezone_set('America/Guatemala');
-
-						$fecha = date('Y-m-d');
-						$hora = date('H:i:s');
-
-						$fechaActual = $fecha.' '.$hora;
-
-						$item1 = "ultimo_login";
-						$valor1 = $fechaActual;
-
-						$item2 = "id";
-						$valor2 = $respuesta["id"];
-
-						$ultimoLogin = ModeloUsuarios::mdlActualizarUsuario($tabla, $item1, $valor1, $item2, $valor2);
-
-						if($ultimoLogin == "ok"){
-						
-							echo '<script>
-						
-								window.location = "inicio";
-
-							</script>';
-
-						}				
-						
+					if($respuesta["password"] == $crypto){
+			
+								if($respuesta["estado"] == 1){
+			
+									$_SESSION["iniciarSesion"] = "ok";
+									$_SESSION["id"] = $respuesta["id"];
+									$_SESSION["nombre"] = $respuesta["nombre"];
+									$_SESSION["usuario"] = $respuesta["usuario"];
+									$_SESSION["foto"] = $respuesta["foto"];
+									$_SESSION["perfil"] = $respuesta["perfil"];
+			
+									/*=============================================
+									REGISTRAR FECHA PARA SABER EL ÚLTIMO LOGIN
+									=============================================*/
+			
+									date_default_timezone_set('America/Guatemala');
+			
+									$fecha = date('Y-m-d');
+									$hora = date('H:i:s');
+			
+									$fechaActual = $fecha.' '.$hora;
+			
+									$item1 = "ultimo_login";
+									$valor1 = $fechaActual;
+			
+									$item2 = "id";
+									$valor2 = $respuesta["id"];
+			
+									$ultimoLogin = ModeloUsuarios::mdlActualizarUsuario($tabla, $item1, $valor1, $item2, $valor2);
+			
+									if($ultimoLogin == "ok"){
+									
+										echo '<script>
+									
+											window.location = "inicio";
+			
+										</script>';
+			
+									}				
+									
+								}else{
+			
+									echo '<br>
+										<div class="alert alert-danger text-center">El usuario aún no está activado</div>';
+			
+								}		
+			
+							}else{
+			
+								echo '<br><div class="alert alert-danger text-center">Error Contraseña Incorrecta</div>';
+			
+							}
+							
+							
+							
 					}else{
-
-						echo '<br>
-							<div class="alert alert-danger">El usuario aún no está activado</div>';
-
-					}		
-
-				}else{
-
-					echo '<br><div class="alert alert-danger">Error al ingresar, vuelve a intentarlo</div>';
-
-				}
+						echo '<br><div class="alert alert-danger">Error Usuario Incorrecto</div>';
+					}
 
 			}	
 
@@ -91,7 +99,6 @@ class ControladorUsuarios{
 
 			if(preg_match('/^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚ ]+$/', $_POST["nuevoNombre"]) &&
 			   preg_match('/^[a-zA-Z0-9]+$/', $_POST["nuevoUsuario"]) &&
-			   preg_match('/^[0-9]+$/', $_POST["nuevoCui"]) &&
 			   preg_match('/^[a-zA-Z0-9]+$/', $_POST["nuevoPassword"])){
 
 			   	/*=============================================
@@ -167,7 +174,6 @@ class ControladorUsuarios{
 
 				$datos = array("nombre" => $_POST["nuevoNombre"],
 					           "usuario" => $_POST["nuevoUsuario"],
-					           "cui" => $_POST["nuevoCui"],
 					           "id_vendedor"=>$_POST["idVendedor"],
 					           "password" => $crypto,
 					           "perfil" => $_POST["nuevoPerfil"],
@@ -250,8 +256,7 @@ class ControladorUsuarios{
 
 		if(isset($_POST["editarUsuario"])){
 
-			if(preg_match('/^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚ ]+$/', $_POST["editarNombre"]) &&
-				preg_match('/^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚ ]+$/', $_POST["editarCui"])){
+			if(preg_match('/^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚ ]+$/', $_POST["editarNombre"])){
 
 				/*=============================================
 				VALIDAR IMAGEN
@@ -369,7 +374,6 @@ class ControladorUsuarios{
 
 				$datos = array("nombre" => $_POST["editarNombre"],
 							   "usuario" => $_POST["editarUsuario"],
-							   "cui" => $_POST["editarCui"],
 							   "password" => $crypto,
 							   "perfil" => $_POST["editarPerfil"],
 							   "foto" => $ruta);

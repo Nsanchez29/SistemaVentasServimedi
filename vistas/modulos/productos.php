@@ -24,7 +24,7 @@
   
           <button class="btn btn-dodgerblue" data-toggle="modal" data-target="#modalAgregarProducto">
           
-            Agregar producto
+          <i class="fas fa-plus"></i> Agregar producto
 
           </button>
         
@@ -94,9 +94,9 @@ MODAL AGREGAR PRODUCTO
         ======================================-->
 
         <div class="modal-header" style="background: dodgerblue; color:white">
-
-          <h4 class="modal-title">Agregar producto</h4>
-
+          <center>
+          <img class="modal-title" src="vistas/img/plantilla/agregarproducto.png" width="320px">
+          </center>
         </div>
 
         <!--=====================================
@@ -300,9 +300,9 @@ MODAL AGREGAR PRODUCTO
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
+          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal"><i class="fas fa-window-close"></i> Salir</button>
 
-          <button type="submit" class="btn btn-dodgerblue">Guardar producto</button>
+          <button type="submit" class="btn btn-dodgerblue"><i class="far fa-save"></i> Guardar producto</button>
 
         </div>
 
@@ -337,10 +337,10 @@ MODAL EDITAR PRODUCTO
         CABEZA DEL MODAL
         ======================================-->
 
-        <div class="modal-header" style="background: dodgerblue; color:white">        
-
-          <h4 class="modal-title">Editar producto</h4>
-
+        <div class="modal-header" style="background: dodgerblue; color:white">
+          <center>
+          <img class="modal-title" src="vistas/img/plantilla/editarproducto.png" width="320px">
+          </center>
         </div>
 
         <!--=====================================
@@ -518,9 +518,9 @@ MODAL EDITAR PRODUCTO
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
+          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal"><i class="fas fa-window-close"></i> Salir</button>
 
-          <button type="submit" class="btn btn-dodgerblue">Guardar cambios</button>
+          <button type="submit" class="btn btn-dodgerblue"><i class="far fa-save"></i> Guardar cambios</button>
 
         </div>
 

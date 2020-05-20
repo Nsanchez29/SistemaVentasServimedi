@@ -133,7 +133,7 @@ class ControladorVentas{
 					  }).then(function(result){
 								if (result.value) {
 
-								window.location = "ordenes";
+								window.location = "ventas";
 
 								}
 							})

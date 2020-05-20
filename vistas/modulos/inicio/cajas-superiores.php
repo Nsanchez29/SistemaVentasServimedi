@@ -73,7 +73,7 @@ $totalContactos = count($contactos);
 
     <div class="icon">
 
-    <i class="fab fa-stack-overflow"></i>
+    <i class="fas fa-barcode"></i>
 
     </div>
 
@@ -121,7 +121,7 @@ $totalContactos = count($contactos);
 
     <div class="icon">
 
-    <i class="fas fa-barcode"></i>
+    <i class="fas fa-box-open"></i>
 
     </div>
 

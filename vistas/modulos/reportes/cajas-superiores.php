@@ -14,8 +14,7 @@ $totalProductos = count($productos);
 $proveedores = ControladorProveedores::ctrMostrarProveedores($item, $valor);
 $totalProveedores = count($proveedores);
 
-$contactos = ControladorContactos::ctrMostrarContactos($item, $valor);
-$totalContactos = count($contactos);
+
 
 ?>
 

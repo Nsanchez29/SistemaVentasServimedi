@@ -66,7 +66,7 @@ $totalProveedores = count($proveedores);
 
 <div class="col-lg-4 col-xs-12">
 
-  <div class="small-box bg-yellow">
+  <div class="small-box bg-green">
   
     <div class="inner">
 

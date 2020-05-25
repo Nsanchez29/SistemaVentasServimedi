@@ -49,13 +49,13 @@ $noRepetirFechas = array_unique($arrayFechas);
 GRÁFICO DE VENTAS
 ======================================-->
 
-<div class="box box-solid bg-teal-gradient">
+<div class="box box-solid bg-black-gradient">
 	
 	<div class="box-header">
 		
  		<i class="ion ion-stats-bars"></i>
 
-  		<h3 class="box-title">GRAFICA CORRESPONDIENTE A VENTAS</h3>
+  		<h3 class="box-title">GRAFICA CORRESPONDIENTE A VENTAS | SANATORIO SERVIMEDI</h3>
 
 	</div>
 

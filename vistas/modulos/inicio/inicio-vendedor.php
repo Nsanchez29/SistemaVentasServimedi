@@ -102,7 +102,7 @@ $totalProductos = count($productos);
 
     <div class="icon">
 
-    <i class="fas fa-cart-plus"></i>
+    <i class="fas fa-shopping-cart"></i>
 
     </div>
 
